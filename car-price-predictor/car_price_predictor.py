@@ -20,6 +20,7 @@ from dash import html
 from dash.dependencies import Input, Output, State
 
 import base64
+
 import re
 
 df = pd.read_csv("assests/carscom_scrape_clean.csv").drop(['Unnamed: 0'], axis=1)
